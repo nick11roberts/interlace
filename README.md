@@ -1,2 +1,4 @@
 # interlace
 An algorithm that I developed to assign address buckets to latitude/longitude coordinates with precision up to one digit less than the maximum number of digits after the decimal of a Golang float type. After I developed this algorithm, I discovered that blogger Rahim Sikander Allana had a similar idea but better, that is: http://geozipcode.blogspot.com/. The mathematical properties of Rahim Sikander Allana's GeoZip algorithm seem to be more desirable than my interlace algorithm, so if there is an implementation of GeoZip in your language of choice then I advise that you use that instead of interlace unless there is a particular property of this algorithm that is appealing to you (in which case I would be interested to hear about how you used it). 
+
+For my Golang GeoZip implementation, see https://github.com/nick11roberts/geozip for exciting GeoZipping. 
